@@ -29,46 +29,42 @@
     <script src="/js/page.js" defer></script>
 </head>
 
-<body>
+<body class='page-container'>
     <svg id="fader"></svg>
     <script>
         const fader = document.getElementById('fader');
         fader.classList.add('fadeOut');
     </script>
-
-
-    <div class='page-container'>
-        <div class='nav'>
-            <h2 class="home"> <a href="/">↖︎ HOME</a> </h2>
-            <h2 class='about'><a href="/about/">ABOUT ↗</a></h2>
-        </div>
-
-        <div class='info'>
-            <div class='flex'>
-                <div class='project-basic'>
-                    <h2>07. TECHNONATURAL FUTURES</h2>
-                    <p>Video essay, 2019</p>
-                </div>
-                <p class='project-about border-bottom'>
-                    Technonatural Futures is a video essay interrogating the relationships with people, nature and
-                    technology throughout the past, present and future. The film plays with the visual relationships
-                    between images to explore three defining phenomena of our generation: technological creation,
-                    environmental destruction, and the extinction of experience.
-                </p>
-            </div>
-        </div>
-
-        <div class='locked-aspect'>
-            <iframe class='locked-ifr' src="https://player.vimeo.com/video/491366051?title=0&byline=0&portrait=0"
-                frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-        </div>
-        <script src="https://player.vimeo.com/api/player.js"></script>
-
-        <nav class='flex footer'>
-            <h2 class='left'><a href="/bbc-habitat/">← BBC HABITAT</a></h2>
-            <h2 class='right'><a href="/what-i-see/">WHAT I SEE →</a></h2>
-        </nav>
+    <div class='nav'>
+        <h2 class="home"> <a href="/">↖︎ HOME</a> </h2>
+        <h2 class='about'><a href="/about/">ABOUT ↗</a></h2>
     </div>
+
+    <div class='info'>
+        <div class='flex'>
+            <div class='project-basic'>
+                <h2>07. TECHNONATURAL FUTURES</h2>
+                <p>Video essay, 2019</p>
+            </div>
+            <p class='project-about border-bottom'>
+                Technonatural Futures is a video essay interrogating the relationships with people, nature and
+                technology throughout the past, present and future. The film plays with the visual relationships
+                between images to explore three defining phenomena of our generation: technological creation,
+                environmental destruction, and the extinction of experience.
+            </p>
+        </div>
+    </div>
+
+    <div class='locked-aspect'>
+        <iframe class='locked-ifr' src="https://player.vimeo.com/video/491366051?title=0&byline=0&portrait=0"
+            frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
+    <nav class='flex footer'>
+        <h2 class='left'><a href="/bbc-habitat/">← BBC HABITAT</a></h2>
+        <h2 class='right'><a href="/what-i-see/">WHAT I SEE →</a></h2>
+    </nav>
 </body>
 
 </html>
