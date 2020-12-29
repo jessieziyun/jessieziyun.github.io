@@ -1,4 +1,4 @@
-let mobile;
+let mobile = false;
 
 function isAndroid() {
     return /Android/i.test(navigator.userAgent);
