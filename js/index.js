@@ -2,6 +2,11 @@ let scrolled = 0;
 
 $(document).ready(() => {
 
+    if ($(window).scrollTop() >= $(window).innerHeight() * 0.94 - 100) {
+        $('.projects-title').text("WORK ↑");
+        scrolled = 1;
+    }
+
     $(window).scroll(() => {
         if ($(window).scrollTop() >= $(window).innerHeight() * 0.94 - 100) {
             scrolled = 1;
