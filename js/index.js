@@ -56,11 +56,11 @@ $(document).ready(() => {
             $(".thumbnail-container.mars").css("display", "none");
         });
 
-        // advertising bot
-        $(".advertising-bot").hoverIntent(() => {
-            $(".thumbnail-container.advertising-bot").css("display", "block");
+        // poet
+        $(".poet").hoverIntent(() => {
+            $(".thumbnail-container.poet").css("display", "block");
         }, () => {
-            $(".thumbnail-container.advertising-bot").css("display", "none");
+            $(".thumbnail-container.poet").css("display", "none");
         });
 
         // sonance

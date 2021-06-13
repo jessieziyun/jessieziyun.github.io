@@ -231,7 +231,7 @@ a {
     bottom: 5%;
 }
 
-.thumbnail-container.advertising-bot {
+.thumbnail-container.poet {
     width: 33vw;
     height: 50%;
     right: 55px;
@@ -390,8 +390,7 @@ a {
 
 .footer {
     margin-top: 75px;
-    margin-bottom: 10px;
-    height: 50px;
+    height: min-content;
 }
 
 .app {
