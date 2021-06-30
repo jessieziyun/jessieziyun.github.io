@@ -231,11 +231,11 @@ a {
     bottom: 5%;
 }
 
-.thumbnail-container.poet {
+.thumbnail-container.bloom {
     width: 33vw;
-    height: 50%;
-    right: 55px;
-    bottom: 0px;
+    height: 33vw;
+    left: 20vw;
+    top: 10vh;
 }
 
 .thumbnail-container.sonance {
@@ -412,6 +412,11 @@ p a:hover {
 
 .right {
     text-align: right;
+}
+
+#gan {
+    height: calc((100vw - 40px) / 2);
+    object-fit: cover;
 }
 
 @media only screen and (max-width: 600px) {

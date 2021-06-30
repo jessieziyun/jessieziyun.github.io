@@ -57,10 +57,10 @@ $(document).ready(() => {
         });
 
         // poet
-        $(".poet").hoverIntent(() => {
-            $(".thumbnail-container.poet").css("display", "block");
+        $(".bloom").hoverIntent(() => {
+            $(".thumbnail-container.bloom").css("display", "block");
         }, () => {
-            $(".thumbnail-container.poet").css("display", "none");
+            $(".thumbnail-container.bloom").css("display", "none");
         });
 
         // sonance
