@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Song Light</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+
+    <meta name="title" content="Song Light" />
+    <meta name="description"
+        content="An ambient lighting system controlled by birdsong that aims to reintroduce nature into our technological lives." />
+    <meta property="og:url" content="https://jessieziyun.com/work/song-light/" ;>
+    <meta property="og:title" content="Song Light" ;>
+    <meta property="og:description"
+        content="An ambient lighting system controlled by birdsong that aims to reintroduce nature into our technological lives."
+        ;>
+    <meta property="og:image" content="https://jessieziyun.com/work/song-light/song-light.jpg" ;>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <script src="/js/page.js" defer></script>
+</head>
+
+<body class='page-container'>
+    <svg id="fader"></svg>
+    <script>
+        const fader = document.getElementById('fader');
+        fader.classList.add('fadeOut');
+    </script>
+    <div class='nav'>
+        <h2 class="home"> <a href="/">↖︎ HOME</a> </h2>
+        <h2 class='about'><a href="/about/">ABOUT ↗</a></h2>
+    </div>
+
+    <div class='info'>
+        <div class='flex'>
+            <div class='project-basic'>
+                <h2>01. SONG LIGHT</h2>
+                <p>Artefact, 2021</p>
+            </div>
+            <p class='project-about border-bottom'>
+                Song Light is an ambient lighting system controlled by birdsong that aims to reintroduce nature into our technological lives. Powered by a neural network, it amplifies their voices by expanding their song from the auditory to the visual realms. As songs of different birds are heard, the colour of the light responds; the more diverse the song, the more colourful the light. Bluer hues promote relaxation and calmness, and thus it is these colours that Song Light produces when it hears birdsong. Contrastingly, when the absence of song is detected, Song Light begins to veer towards the redder hues, red being the colour of warning. The longer the absence, the redder the light becomes.
+            </p>
+        </div>
+    </div>
+
+    <div class='locked-aspect'>
+        <iframe class='locked-ifr' src="https://player.vimeo.com/video/556685962?title=0&byline=0&portrait=0"
+            frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    
+    <img class='rounded full' src='song-light.jpg'></img>
+
+    <nav class='flex footer'>
+        <h2 class='left'><a href="/work/speech-bubbles/">← SPEECH BUBBLES</a></h2>
+        <h2 class='right'><a href="/work/bloom/">BLOOM →</a></h2>
+    </nav>
+</body>
+
+</html>

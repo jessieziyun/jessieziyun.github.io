@@ -171,29 +171,28 @@ a {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 12.5%;
+    height: 14.28%;
     border-top: 2px solid black;
+}
+
+.secret {
+    display: none;
 }
 
 .project-title-container {
     position: relative;
     padding: 0px 20px;
-    width: 33%;
+    width: 80%;
     min-width: 500px;
 }
 
 .project-text-container {
     position: relative;
     padding: 0px 20px;
-    width: 33%;
+    width: 20%;
 }
 
 .project-name {
-    position: absolute;
-    bottom: 0;
-}
-
-.project-type {
     position: absolute;
     bottom: 0;
 }
@@ -210,11 +209,11 @@ a {
     position: absolute;
 }
 
-.thumbnail-container.utopia {
+.thumbnail-container.song-light {
     width: 33vw;
-    height: 90%;
-    right: 10vw;
-    top: 7%;
+    height: 50%;
+    right: 15vw;
+    top: 15%;
 }
 
 .thumbnail-container.speech-bubbles {
@@ -224,7 +223,7 @@ a {
     bottom: 7%;
 }
 
-.thumbnail-container.mars {
+.thumbnail-container.poet {
     width: 33vw;
     height: 80%;
     right: 30vw;
@@ -257,13 +256,6 @@ a {
     height: 33vw;
     left: 40vw;
     top: 20vh;
-}
-
-.thumbnail-container.what-i-see {
-    width: 33vw;
-    height: 80%;
-    right: 10vw;
-    top: 7vh;
 }
 
 .thumbnail {
@@ -327,6 +319,11 @@ a {
     width: calc(33% - 10px);
 }
 
+.project-basic h2 {
+    line-height: 1em;
+    margin-bottom: 0.2em;
+}
+
 .border-top {
     border-top: 1px solid black;
 }
@@ -367,7 +364,7 @@ a {
 }
 
 .rounded {
-    border-radius: 20px;
+    border-radius: 16px;
 }
 
 .locked-aspect {
@@ -385,7 +382,7 @@ a {
     right: 0;
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 16px;
 }
 
 .nav {
@@ -412,11 +409,11 @@ a {
 }
 
 p a {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 p a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .right {
@@ -455,10 +452,6 @@ p a:hover {
         margin-left: 20px;
     }
 
-    .hidden-mobile {
-        display: none;
-    }
-
     .info {
         margin: 20px 0;
     }
@@ -468,6 +461,18 @@ p a:hover {
     }
 
     .rounded {
-        border-radius: 15px;
+        border-radius: 12px;
+    }
+
+    .locked-aspect {
+        margin-bottom: 16px;
+    }
+
+    .locked-ifr {
+        border-radius: 12px;
+    }
+
+    .full {
+        margin-bottom: 8px;
     }
 }

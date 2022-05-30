@@ -33,13 +33,13 @@ $(document).ready(() => {
         }
     });
 
-    if (!mobile) {
+    if (mobile == false) {
 
-        // utopia
-        $(".utopia").hoverIntent(() => {
-            $(".thumbnail-container.utopia").css("display", "block");
+        // song light
+        $(".song-light").hoverIntent(() => {
+            $(".thumbnail-container.song-light").css("display", "block");
         }, () => {
-            $(".thumbnail-container.utopia").css("display", "none");
+            $(".thumbnail-container.song-light").css("display", "none");
         });
 
         // speech bubbles
@@ -49,14 +49,14 @@ $(document).ready(() => {
             $(".thumbnail-container.speech-bubbles").css("display", "none");
         });
 
-        // mars
-        $(".mars").hoverIntent(() => {
-            $(".thumbnail-container.mars").css("display", "block");
+        // poet
+        $(".poet").hoverIntent(() => {
+            $(".thumbnail-container.poet").css("display", "block");
         }, () => {
-            $(".thumbnail-container.mars").css("display", "none");
+            $(".thumbnail-container.poet").css("display", "none");
         });
 
-        // poet
+        // bloom
         $(".bloom").hoverIntent(() => {
             $(".thumbnail-container.bloom").css("display", "block");
         }, () => {
@@ -82,13 +82,6 @@ $(document).ready(() => {
             $(".thumbnail-container.technonatural-futures").css("display", "block");
         }, () => {
             $(".thumbnail-container.technonatural-futures").css("display", "none");
-        });
-
-        // what i see
-        $(".what-i-see").hoverIntent(() => {
-            $(".thumbnail-container.what-i-see").css("display", "block");
-        }, () => {
-            $(".thumbnail-container.what-i-see").css("display", "none");
         });
     }
 });
