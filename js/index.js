@@ -14,6 +14,9 @@ $(document).ready(() => {
             sessionStorage.setItem('access', 1);
             $(".project.secret").css("display", "flex");
             $(".project").css("height", "12.5%");
+            setTimeout(() => {
+                alert('You\'ve unlocked 08.SHHH...\nYou will now be able to find this at the bottom of the projects list. Enjoy!')
+            }, 200);
         });
     }
 });
