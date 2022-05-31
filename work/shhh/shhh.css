@@ -1,0 +1,69 @@
+#access-restricted {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #fafafa;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.shhh-project {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+    border-bottom: 2px solid black;
+}
+
+.shhh-project.last {
+    border-bottom: none; 
+}
+
+.shhh-projects-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.shhh-projects-container {
+    position: absolute;
+    bottom: 0;
+    height: calc(50vh - 42.5px);
+    width: 100%;
+}
+
+.thumbnail-container.waste-age {
+    width: 40vw;
+    height: 30vw;
+    left: 25vw;
+    top: 18vh;
+}
+
+.thumbnail-container.anyone {
+    width: 30vw;
+    height: 35vw;
+    right: 20vw;
+    top: 20vh;
+}
+
+.thumbnail-container.spin-unreleased {
+    width: 40vw;
+    height: 30vw;
+    left: 12vw;
+    bottom: 30vh;
+}
+
+.thumbnail-container.saltandstone {
+    width: 40vw;
+    height: 30vw;
+    right: 15vw;
+    bottom: 5vh;
+}

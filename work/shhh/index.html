@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en" class="scroll-snap">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+
+    <title>Shhh...</title>
+
+    <meta name="robots" content="noindex">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="/js/jquery.hoverIntent.min.js"></script>
+    <script src="/js/page.js" defer></script>
+    <script src="/js/shhh.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="stylesheet" type="text/css" href="shhh.css" />
+</head>
+
+<body>
+    <div id="msg">
+        <div class='centre'>
+            <h2><a href="/"><u>BACK TO HOME</u></a></h2>
+        </div>
+    </div>
+    <svg id="fader"></svg>
+    <script>
+        const fader = document.getElementById('fader');
+        fader.classList.add('fadeOut');
+    </script>
+    <div class='thumbnail-container waste-age'>
+        <img class="thumbnail" src="https://spin.co.uk/assets/Waste_Age_Exhibition_23.jpg" />
+    </div>
+    <div class='thumbnail-container anyone'>
+            <video autoplay loop muted playsinline class="thumbnail" src="./anyone/sticks-field.mp4"></video>
+    </div>
+    <div class='thumbnail-container spin-unreleased'>
+            <video autoplay loop muted playsinline class="thumbnail" src="./spin-unreleased/desktop.mp4"></video>
+    </div>
+    <div class='thumbnail-container saltandstone'>
+            <video autoplay loop muted playsinline class="thumbnail" src="./saltandstone/home-short.mp4"></video>
+    </div>
+    <div class='page-container'>
+        <div class='nav'>
+            <h2 class="home"> <a href="/">↖︎ HOME</a> </h2>
+            <h2 class='about'><a href="/about/">ABOUT ↗</a></h2>
+        </div>
+    </div>
+    <div class="shhh-projects-container">
+        <div class='shhh-projects-list' data-nosnippet>
+            <div class='shhh-project'>
+                <div class='project-title-container'>
+                    <h2 class='project-name waste-age'><a href="/work/shhh/waste-age/">01. WASTE AGE</a></h2>
+                </div>
+                <div class='project-text-container'>
+                    <h2 class='go'><a href="/work/shhh/waste-age/">→</a></h2>
+                </div>
+            </div>
+            <div class='shhh-project'>
+                <div class='project-title-container'>
+                    <h2 class='project-name anyone'><a href="/work/shhh/anyone/">02. ANYONE SKETCHBOOK</a></h2>
+                </div>
+                <div class='project-text-container'>
+                    <h2 class='go'><a href="/work/shhh/anyone/">→</a></h2>
+                </div>
+            </div>
+            <div class='shhh-project'>
+                <div class='project-title-container'>
+                    <h2 class='project-name spin-unreleased'> <a href="/work/shhh/spin-unreleased/">03. SPIN UNRELEASED</a></h2>
+                </div>
+                <div class='project-text-container'>
+                    <h2 class='go'><a href="/work/shhh/spin-unreleased/">→</a></h2>
+                </div>
+            </div>
+            <div class='shhh-project last'>
+                <div class='project-title-container'>
+                    <h2 class='project-name saltandstone'> <a href="/work/shhh/saltandstone/">04. SALT & STONE</a></h2>
+                </div>
+                <div class='project-text-container'>
+                    <h2 class='go'><a href="/work/shhh/saltandstone/">→</a></h2>
+                </div>
+            </div>
+        </div>    
+    </div>
+</body>
+
+</html>
