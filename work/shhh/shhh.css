@@ -67,3 +67,7 @@ body {
     right: 15vw;
     bottom: 5vh;
 }
+
+#msgtext {
+    color: #fafafa;
+}
